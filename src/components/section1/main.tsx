@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { ArrowIcon } from "@/components/arrayIcon/main";
+import { ArrowIcon } from "@/components/arrowIcon/main";
 import { Gilda_Display } from "next/font/google";
 
 const gilda = Gilda_Display({ subsets: ["latin"], weight: "400" });
