@@ -17,7 +17,7 @@ const Main = () => {
             Greatness <span className={gilda.className}>Start Here</span>
           </p>
         </h1>
-        <p className="text-lg font-medium">
+        <p className="text-lg font-medium text-white/70">
           Magna Partners was established in 2024 as a collectively developed
           network of organizations and communities that focused on solving the
           problems of youths: high schoolers, college students, and young
