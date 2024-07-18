@@ -6,10 +6,18 @@ const gilda = Gilda_Display({ subsets: ["latin"], weight: "400" });
 
 const Main = () => {
   return (
-    // padding-x nya 120px karena gua samain sama figmanya
-    <main className="w-screen h-auto bg-[url('/images/section1-bg.png')] bg-cover px-[120px] pt-24">
+    <main className="relative min-w-screen h-auto px-5 md:px-[120px] pt-24">
+      <div className="absolute bottom-0 -z-10 h-full w-full -mx-5 md:-mx-[120px]">
+        <Image
+          src="/images/section1-bg.png"
+          alt="background-section1"
+          objectFit="cover"
+          fill
+          priority
+        />
+      </div>
       <div className="flex flex-col gap-12 w-full">
-        <h1 className="text-7xl">
+        <h1 className="text-4xl md:text-7xl">
           <p className="mb-3">
             We're <b>Magna</b>
           </p>
