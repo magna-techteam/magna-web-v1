@@ -11,7 +11,7 @@ const Main = () => {
         <Image
           src="/images/section1-bg.png"
           alt="background-section1"
-          objectFit="cover"
+          className="object-cover"
           fill
           priority
         />
